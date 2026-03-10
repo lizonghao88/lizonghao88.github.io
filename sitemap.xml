@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 首页（必加） -->
+  <url>
+    <loc>https://ggpukett.com/</loc>
+    <lastmod>2026-03-09</lastmod> <!-- 页面最后修改时间，格式：YYYY-MM-DD -->
+    <changefreq>daily</changefreq> <!-- 更新频率：daily/weekly/monthly -->
+    <priority>1.0</priority> <!-- 权重：首页1.0，栏目页0.8，内容页0.6 -->
+  </url>
+</urlset>
