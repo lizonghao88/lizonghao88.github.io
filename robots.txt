@@ -1,0 +1,9 @@
+# 允许所有主流爬虫抓取
+User-Agent: *
+Allow: /
+# 禁止抓取无用目录/文件（根据自己网站实际情况补充）
+Disallow: /static/css/
+Disallow: /static/js/
+Disallow: /favicon.ico
+# 告诉爬虫站点地图地址（后续会配置sitemap.xml）
+Sitemap: https://ggpukett.com/sitemap.xml
