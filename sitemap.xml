@@ -3,8 +3,39 @@
   <!-- 首页（必加） -->
   <url>
     <loc>https://ggpukett.com/</loc>
-    <lastmod>2026-03-09</lastmod> <!-- 页面最后修改时间，格式：YYYY-MM-DD -->
+    <lastmod>2026-03-21</lastmod> <!-- 页面最后修改时间，格式：YYYY-MM-DD -->
     <changefreq>daily</changefreq> <!-- 更新频率：daily/weekly/monthly -->
     <priority>1.0</priority> <!-- 权重：首页1.0，栏目页0.8，内容页0.6 -->
   </url>
+  <url>
+    <loc>https://ggpukett.com/#/tournaments</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ggpukett.com/#/news</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://ggpukett.com/#/team</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://ggpukett.com/#/games</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://ggpukett.com/#/download</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
+
