@@ -93,7 +93,7 @@ export function renderRoute(container) {
     setTimeout(() => {
       container.classList.add('visible');
       // 切换页面后滚动到顶部
-      // window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 50);
   }, 250);
 
