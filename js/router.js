@@ -95,7 +95,7 @@ export function renderRoute(container) {
     }, 50);
 
     // 切换页面后滚动到顶部
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // window.scrollTo({ top: 0, behavior: 'smooth' });
   }, 250);
 
   // 更新导航激活状态
