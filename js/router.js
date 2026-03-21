@@ -78,9 +78,6 @@ export function renderRoute(container) {
     (hash.replace(/^#/, '') || '/');
   updateSEOForRoute(routePath);
 
-  // 切换页面后滚动到顶部
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-
   // 淡入淡出效果
   container.classList.remove('visible');
 
@@ -96,6 +93,9 @@ export function renderRoute(container) {
     setTimeout(() => {
       container.classList.add('visible');
     }, 50);
+
+    // 切换页面后滚动到顶部
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, 250);
 
   // 更新导航激活状态
