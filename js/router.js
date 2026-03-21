@@ -92,10 +92,9 @@ export function renderRoute(container) {
     // 淡入
     setTimeout(() => {
       container.classList.add('visible');
+      // 切换页面后滚动到顶部
+      // window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 50);
-
-    // 切换页面后滚动到顶部
-    // window.scrollTo({ top: 0, behavior: 'smooth' });
   }, 250);
 
   // 更新导航激活状态
