@@ -91,9 +91,9 @@ export function renderRoute(container) {
 
     // 淡入
     setTimeout(() => {
+      // 先滚动到顶部，再触发入场动画，避免动画和滚动竞争资源
+      window.scrollTo({ top: 0, behavior: 'instant' });
       container.classList.add('visible');
-      // 切换页面后滚动到顶部
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 50);
   }, 250);
 
